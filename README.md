@@ -1,2 +1,2 @@
 # JSF-Validation
-Validação de campos numa aplicação JSF
+Validação de campos personalizada numa aplicação JSF
