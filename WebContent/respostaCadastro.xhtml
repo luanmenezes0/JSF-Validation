@@ -9,23 +9,28 @@
 	
 	<h:head>
 		<title>Cadastro</title>
+		<h:outputStylesheet library="css" name="styles.css"/>
 	</h:head>
 	
 	<h:body>
-		<h:outputText value="Nome Completo: #{valida.nomeCompleto}"></h:outputText>
-		<br/>
 		
-		<h:outputText value="Sobrenome: #{valida.sobrenome}"></h:outputText>
-		<br/>
+		<h:panelGroup styleClass="resposta" layout="block">
+			<h:outputText value="Nome Completo: #{valida.nomeCompleto}"></h:outputText>
+			<br/>
+			
+			<h:outputText value="Sobrenome: #{valida.sobrenome}"></h:outputText>
+			<br/>
+			
+			<h:outputText value="Endereço: #{valida.endereco}"></h:outputText>
+			<br/>
+			
+			<h:outputText value="Email: #{valida.email}"></h:outputText>
+			<br/>
+			
+			<h:outputText value="Data: #{valida.dataCadastro}"></h:outputText>
+			<br/>
+		</h:panelGroup>
 		
-		<h:outputText value="Endereço: #{valida.endereco}"></h:outputText>
-		<br/>
-		
-		<h:outputText value="Email: #{valida.email}"></h:outputText>
-		<br/>
-		
-		<h:outputText value="Data: #{valida.dataCadastro}"></h:outputText>
-		<br/>
 	</h:body>
 
 </html>
