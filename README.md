@@ -1,2 +1,3 @@
 # JSF-Validation
-Validação de campos personalizada numa aplicação JSF
+Customized validation in a JSF application.
+Exercise from Web development course from my college program
